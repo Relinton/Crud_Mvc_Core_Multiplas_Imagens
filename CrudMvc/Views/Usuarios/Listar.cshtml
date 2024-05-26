@@ -1,0 +1,59 @@
+﻿@model IEnumerable<CrudMvc.Models.Entidades.Usuario>
+
+@{
+    ViewData["Title"] = "Listar";
+}
+
+<h1>Listar Usuários</h1>
+
+<p>
+    <a asp-action="Cadastrar">Novo Cadastro</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NomeUsuario)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Idade)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TipoUsuario)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NomeUsuario)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Idade)
+                </td>
+                <td>
+                    @if (item.TipoUsuario == 1)
+                    {
+                        <label>Administrador</label>
+                    }
+                    else if (item.TipoUsuario == 2)
+                    {
+                        <label>Técnico</label>
+                    }
+                    else if (item.TipoUsuario == 3)
+                    {
+                        <label>Usuário Normal</label>
+                    }
+                </td>
+                <td>
+                    @Html.ActionLink("Editar", "Editar", new { item.Id }) |
+                    @Html.ActionLink("Detalhes", "Detalhes", new { item.Id }) |
+                    @Html.ActionLink("Remover", "Remover", new { item.Id })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

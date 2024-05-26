@@ -1,0 +1,47 @@
+﻿@model CrudMvc.Models.Entidades.Usuario
+
+@{
+    ViewData["Title"] = "Detalhes";
+}
+
+<h1>Detalhes do Usuário</h1>
+
+<div>
+    <h4>Usuario</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NomeUsuario)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NomeUsuario)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Idade)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Idade)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TipoUsuario)
+        </dt>
+        <dd class="col-sm-10">
+            @if (Model.TipoUsuario == 1)
+            {
+                <label>Administrador</label>
+            }
+            else if (Model.TipoUsuario == 2)
+            {
+                <label>Técnico</label>
+            }
+            else if (Model.TipoUsuario == 3)
+            {
+                <label>Usuário Normal</label>
+            }
+        </dd>
+    </dl>
+</div>
+<div>
+    @Html.ActionLink("Editar", "Editar", new { id = Model.Id }) |
+    <a asp-action="Listar">Voltar para lista</a>
+</div>

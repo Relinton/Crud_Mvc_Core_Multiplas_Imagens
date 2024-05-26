@@ -1,0 +1,47 @@
+﻿@model CrudMvc.Models.Entidades.Escola
+
+@{
+    ViewData["Title"] = "Detalhes";
+}
+
+<h1>Detalhes da Escola</h1>
+
+<div>
+    <h4>Escola</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Endereco)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Endereco)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TipoEscola)
+        </dt>
+        <dd class="col-sm-10">
+            @if (Model.TipoEscola == 1)
+            {
+                <label>Municipal</label>
+            }
+            else if (Model.TipoEscola == 2)
+            {
+                <label>Estadual</label>
+            }
+            else if (Model.TipoEscola == 3)
+            {
+                <label>Federal</label>
+            }
+        </dd>
+    </dl>
+</div>
+<div>
+    @Html.ActionLink("Editar", "Editar", new { id = Model.Id }) |
+    <a asp-action="Listar">Voltar para lista</a>
+</div>

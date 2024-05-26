@@ -1,0 +1,49 @@
+﻿@model CrudMvc.Models.Entidades.Usuario
+
+@{
+    ViewData["Title"] = "Remover";
+}
+
+<h1>Remover Usuário</h1>
+
+<h3>Você tem certeza que deseja remover este usuário?</h3>
+<div>
+    <h4>Usuario</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NomeUsuario)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NomeUsuario)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Idade)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Idade)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TipoUsuario)
+        </dt>
+        <dd class="col-sm-10">
+            @if (Model.TipoUsuario == 1)
+            {
+                <label>Administrador</label>
+            }
+            else if (Model.TipoUsuario == 2)
+            {
+                <label>Técnico</label>
+            }
+            else if (Model.TipoUsuario == 3)
+            {
+                <label>Usuário Normal</label>
+            }
+        </dd>
+    </dl>
+
+    <form asp-action="Remover">
+        <input type="submit" value="Remover" class="btn btn-danger" /> |
+        <a asp-action="Listar">Voltar para lista</a>
+    </form>
+</div>

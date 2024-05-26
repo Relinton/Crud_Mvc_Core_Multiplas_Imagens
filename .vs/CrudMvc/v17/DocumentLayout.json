@@ -1,0 +1,145 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\YouTube\\CrudAspNetCore\\CrudMvc\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D25D7D42-0A15-477E-81C9-AAD7A77B4B9E}|CrudMvc\\CrudMvc.csproj|d:\\youtube\\crudaspnetcore\\crudmvc\\crudmvc\\views\\escolas\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D25D7D42-0A15-477E-81C9-AAD7A77B4B9E}|CrudMvc\\CrudMvc.csproj|solutionrelative:crudmvc\\views\\escolas\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D25D7D42-0A15-477E-81C9-AAD7A77B4B9E}|CrudMvc\\CrudMvc.csproj|d:\\youtube\\crudaspnetcore\\crudmvc\\crudmvc\\controllers\\escolascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D25D7D42-0A15-477E-81C9-AAD7A77B4B9E}|CrudMvc\\CrudMvc.csproj|solutionrelative:crudmvc\\controllers\\escolascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D25D7D42-0A15-477E-81C9-AAD7A77B4B9E}|CrudMvc\\CrudMvc.csproj|d:\\youtube\\crudaspnetcore\\crudmvc\\crudmvc\\views\\escolas\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D25D7D42-0A15-477E-81C9-AAD7A77B4B9E}|CrudMvc\\CrudMvc.csproj|solutionrelative:crudmvc\\views\\escolas\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D25D7D42-0A15-477E-81C9-AAD7A77B4B9E}|CrudMvc\\CrudMvc.csproj|d:\\youtube\\crudaspnetcore\\crudmvc\\crudmvc\\views\\escolas\\detalhes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D25D7D42-0A15-477E-81C9-AAD7A77B4B9E}|CrudMvc\\CrudMvc.csproj|solutionrelative:crudmvc\\views\\escolas\\detalhes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D25D7D42-0A15-477E-81C9-AAD7A77B4B9E}|CrudMvc\\CrudMvc.csproj|d:\\youtube\\crudaspnetcore\\crudmvc\\crudmvc\\views\\escolas\\remover.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D25D7D42-0A15-477E-81C9-AAD7A77B4B9E}|CrudMvc\\CrudMvc.csproj|solutionrelative:crudmvc\\views\\escolas\\remover.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D25D7D42-0A15-477E-81C9-AAD7A77B4B9E}|CrudMvc\\CrudMvc.csproj|d:\\youtube\\crudaspnetcore\\crudmvc\\crudmvc\\views\\escolas\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D25D7D42-0A15-477E-81C9-AAD7A77B4B9E}|CrudMvc\\CrudMvc.csproj|solutionrelative:crudmvc\\views\\escolas\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D25D7D42-0A15-477E-81C9-AAD7A77B4B9E}|CrudMvc\\CrudMvc.csproj|d:\\youtube\\crudaspnetcore\\crudmvc\\crudmvc\\models\\entidades\\escola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D25D7D42-0A15-477E-81C9-AAD7A77B4B9E}|CrudMvc\\CrudMvc.csproj|solutionrelative:crudmvc\\models\\entidades\\escola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EscolasController.cs",
+              "DocumentMoniker": "D:\\YouTube\\CrudAspNetCore\\CrudMvc\\CrudMvc\\Controllers\\EscolasController.cs",
+              "RelativeDocumentMoniker": "CrudMvc\\Controllers\\EscolasController.cs",
+              "ToolTip": "D:\\YouTube\\CrudAspNetCore\\CrudMvc\\CrudMvc\\Controllers\\EscolasController.cs",
+              "RelativeToolTip": "CrudMvc\\Controllers\\EscolasController.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAAAIoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T19:40:47.651Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Listar.cshtml",
+              "DocumentMoniker": "D:\\YouTube\\CrudAspNetCore\\CrudMvc\\CrudMvc\\Views\\Escolas\\Listar.cshtml",
+              "RelativeDocumentMoniker": "CrudMvc\\Views\\Escolas\\Listar.cshtml",
+              "ToolTip": "D:\\YouTube\\CrudAspNetCore\\CrudMvc\\CrudMvc\\Views\\Escolas\\Listar.cshtml",
+              "RelativeToolTip": "CrudMvc\\Views\\Escolas\\Listar.cshtml",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T19:50:12.46Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Cadastrar.cshtml",
+              "DocumentMoniker": "D:\\YouTube\\CrudAspNetCore\\CrudMvc\\CrudMvc\\Views\\Escolas\\Cadastrar.cshtml",
+              "RelativeDocumentMoniker": "CrudMvc\\Views\\Escolas\\Cadastrar.cshtml",
+              "ToolTip": "D:\\YouTube\\CrudAspNetCore\\CrudMvc\\CrudMvc\\Views\\Escolas\\Cadastrar.cshtml",
+              "RelativeToolTip": "CrudMvc\\Views\\Escolas\\Cadastrar.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T19:50:53.174Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "D:\\YouTube\\CrudAspNetCore\\CrudMvc\\CrudMvc\\Views\\Escolas\\Editar.cshtml",
+              "RelativeDocumentMoniker": "CrudMvc\\Views\\Escolas\\Editar.cshtml",
+              "ToolTip": "D:\\YouTube\\CrudAspNetCore\\CrudMvc\\CrudMvc\\Views\\Escolas\\Editar.cshtml",
+              "RelativeToolTip": "CrudMvc\\Views\\Escolas\\Editar.cshtml",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAACYAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T19:51:27.507Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Remover.cshtml",
+              "DocumentMoniker": "D:\\YouTube\\CrudAspNetCore\\CrudMvc\\CrudMvc\\Views\\Escolas\\Remover.cshtml",
+              "RelativeDocumentMoniker": "CrudMvc\\Views\\Escolas\\Remover.cshtml",
+              "ToolTip": "D:\\YouTube\\CrudAspNetCore\\CrudMvc\\CrudMvc\\Views\\Escolas\\Remover.cshtml",
+              "RelativeToolTip": "CrudMvc\\Views\\Escolas\\Remover.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T19:51:58.534Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Detalhes.cshtml",
+              "DocumentMoniker": "D:\\YouTube\\CrudAspNetCore\\CrudMvc\\CrudMvc\\Views\\Escolas\\Detalhes.cshtml",
+              "RelativeDocumentMoniker": "CrudMvc\\Views\\Escolas\\Detalhes.cshtml",
+              "ToolTip": "D:\\YouTube\\CrudAspNetCore\\CrudMvc\\CrudMvc\\Views\\Escolas\\Detalhes.cshtml",
+              "RelativeToolTip": "CrudMvc\\Views\\Escolas\\Detalhes.cshtml",
+              "ViewState": "AQIAACMAAAAAAAAAAAAAAAYAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T19:52:27.2Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Escola.cs",
+              "DocumentMoniker": "D:\\YouTube\\CrudAspNetCore\\CrudMvc\\CrudMvc\\Models\\Entidades\\Escola.cs",
+              "RelativeDocumentMoniker": "CrudMvc\\Models\\Entidades\\Escola.cs",
+              "ToolTip": "D:\\YouTube\\CrudAspNetCore\\CrudMvc\\CrudMvc\\Models\\Entidades\\Escola.cs",
+              "RelativeToolTip": "CrudMvc\\Models\\Entidades\\Escola.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAAB0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T20:25:02.01Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
